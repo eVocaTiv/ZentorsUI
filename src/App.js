@@ -1,25 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
+import LoginAndSignup from './components/LoginAndSignup';
+import Header from './components/Header';
+import Dashboard from './components/Dashboard';
 import './App.css';
+import { BrowserRouter, Link, NavLink, Redirect, Prompt, Switch } from 'react-router-dom';
+import Route from 'react-router-dom/Route';
+import AuthRoute from './Routes/AuthRoute';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Switch>
+        <div className="main-container">
+          <Header />
+          <Route path="/" exact strict render={
+            props =>
+              <Redirect to={{ pathname: '/home' }} />
+          } />
+          <Route path="/home" exact strict component={LoginAndSignup} />
+          {/* pass user props to dashboard */}
+          <AuthRoute path="/dashboard" exact strict component={Dashboard} />
+        </div>
+      </Switch>
+    </BrowserRouter>
   );
 }
 

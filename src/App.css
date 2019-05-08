@@ -1,5 +1,53 @@
 .App {
+  display: flex;
   text-align: center;
+  margin: auto;
+}
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.main-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url('./metadata/light-bulb.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header {
+  margin: auto;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #287799;
+}
+
+.login-form, .register-form {
+  padding: 16%;
+  border: #287799 3px inset;
+  border-width: 10px;
+  margin: 1% 1%;
+  /* margin: auto; */
+  color: #ffffff;
+  text-align: center;
+}
+
+.login-input, .register-input {
+  position: relative;
+  width: 25%;
+  height: 2rem;
+}
+
+.btn-group {
+  display: flex;
+  width: 30%;
+  height: 2rem;
+  font-weight: bold;
+  align-items: center;
+  flex-direction: row;
+  margin: 0.5rem 35%;
 }
 
 .App-logo {
@@ -31,3 +79,4 @@
     transform: rotate(360deg);
   }
 }
+
