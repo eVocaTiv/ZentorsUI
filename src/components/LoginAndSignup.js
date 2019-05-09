@@ -8,8 +8,7 @@ class LoginAndSignup extends Component {
     super();
     this.state = {
       showSignup: false,
-      showLogin: true,
-      isMentor: false // DEFAULT is 'Mentee'
+      showLogin: true
     }
     this.toggleLoginAndSignup = this.toggleLoginAndSignup.bind(this)
   }
@@ -33,8 +32,8 @@ class LoginAndSignup extends Component {
     return (
       <div>
         <div className="btn-group">
-          <button type="button" id="login-button" onClick={this.toggleLoginAndSignup} className="btn btn-success">Login</button>
-          <button type="button" onClick={this.toggleLoginAndSignup} className="btn btn-success">Register</button>
+          <button type="button" id="login-button" onClick={this.toggleLoginAndSignup} className="btn btn-info ">Login</button>
+          <button type="button" onClick={this.toggleLoginAndSignup} className="btn btn-info">Register</button>
         </div>
         {this.state.showLogin ?  <LoginForm /> : null }
         {this.state.showSignup ?  <RegisterForm /> : null }

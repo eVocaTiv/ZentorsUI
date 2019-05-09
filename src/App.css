@@ -6,6 +6,7 @@
 * {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 .main-container {
   position: absolute;
   height: 100%;
@@ -21,7 +22,8 @@
   text-align: center;
   font-weight: bold;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color: #287799;
+  /* background-color: #287799; */
+  background-color: #17a2b8; /* same as 'info' color */
 }
 
 .login-form, .register-form {
@@ -41,6 +43,7 @@
 }
 
 .btn-group {
+  padding: 30px;
   display: flex;
   width: 30%;
   height: 2rem;

@@ -15,6 +15,7 @@ class LoginForm extends Component {
         }
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
+        this.handleToggle = this.handleToggle.bind(this);
     }
     handleChange = (event) => {
         const { name, value, type } = event.target;
@@ -23,10 +24,9 @@ class LoginForm extends Component {
         })
     }
     handleToggle = (event) => {
-        console.log(event)
         this.setState({
             ...this.state,
-            isMentor: true
+            isMentor: !this.state.isMentor
         })
     }
 
@@ -71,13 +71,15 @@ class LoginForm extends Component {
         return (
             <div>
                 <form className="login-form">
-                <div>
-                    <label class="switch">
-                    <input onChange = {this.handleToggle} type="checkbox" />
-                    <span class="slider round">Mentee</span>
-                    </label>
-               </div>
-               <br /><br />
+                    <div>
+                        <label className="switch">
+                            <input
+                                checked={this.state.isMentor}
+                                onChange={this.handleToggle} type="checkbox" />
+                            <span className="slider round">{this.state.isMentor ? 'Mentor' : 'Mentee'}</span>
+                        </label>
+                    </div>
+                    <br /><br />
 
                     <strong>Username</strong> <br /> <input
                         className="login-input"
@@ -98,7 +100,7 @@ class LoginForm extends Component {
                     />
                     <br /><br />
                     <button
-                        className="login-input"
+                        className="login-input btn btn-info"
                         type="btn"
                         name="loginSubmitButton"
                         action="submit"
