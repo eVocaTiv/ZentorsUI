@@ -17,7 +17,7 @@
   /* The slider */
   .slider {
     position: absolute;
-    /* cursor: pointer; */
+    cursor: pointer;
     top: 0;
     left: 0;
     right: 0;
@@ -56,6 +56,7 @@
   
   /* Rounded sliders */
   .slider.round {
+    /* animation: App-logo-spin infinite 20s linear; */
     border-radius: 34px;
     border-width: 50px;
     border: solid #17a2b8;
@@ -63,4 +64,13 @@
   
   .slider.round:before {
     border-radius: 100%;
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
   }

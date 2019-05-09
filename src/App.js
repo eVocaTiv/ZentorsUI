@@ -19,7 +19,7 @@ function App() {
           } />
           <Route path="/home" exact strict component={LoginAndSignup} />
           {/* pass user props to dashboard */}
-          <AuthRoute path="/dashboard" exact strict component={Dashboard} />
+          <AuthRoute path="/dashboard" exact strict component = {Dashboard} />
         </div>
       </Switch>
     </BrowserRouter>

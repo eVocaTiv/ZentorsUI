@@ -48,7 +48,7 @@ const AuthRoute = ({ component: Component, ...rest }) => (
         <Component {...props} />
       )
       : (
-        <Redirect to={{ pathname: '/login' }} />
+        <Redirect to={{ pathname: '/home' }} />
       )
   )} />
 )

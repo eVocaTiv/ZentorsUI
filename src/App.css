@@ -11,7 +11,7 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  background-image: url('./metadata/light-bulb.jpg');
+  background-image: url('./metadata/bg-zentors-blue3.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -27,10 +27,11 @@
 }
 
 .login-form, .register-form {
-  padding: 16%;
-  border: #287799 3px inset;
-  border-width: 10px;
-  margin: 1% 1%;
+  /* padding: 13%; */
+  border: #287799 3px solid;
+  border-width: 1px;
+  margin: 5% 1%;
+  padding: 3%;
   /* margin: auto; */
   color: #ffffff;
   text-align: center;
@@ -38,19 +39,35 @@
 
 .login-input, .register-input {
   position: relative;
-  width: 25%;
-  height: 2rem;
+  width: 33%;
+  height: 3rem;
 }
 
 .btn-group {
   padding: 30px;
   display: flex;
-  width: 30%;
+  width: 80%;
   height: 2rem;
   font-weight: bold;
   align-items: center;
   flex-direction: row;
-  margin: 0.5rem 35%;
+  margin: 0.5rem 10%;
+}
+
+.btn-group .btn:enabled, .btn-group .btn:visited {
+  background: none;
+}
+
+.btn {
+  height: 4rem;
+}
+
+.btn-group .btn {
+  margin: 5rem 0.5rem 0.25rem 0;
+  height: 5rem;
+}
+.btn-group .btn:hover{
+  background: #17a2b8;
 }
 
 .App-logo {

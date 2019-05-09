@@ -54,7 +54,10 @@ class LoginForm extends Component {
                 ...this.state,
                 isLoggedIn: true
             })
-            this.props.history.push("/dashboard");
+            this.props.history.push({
+                pathname: "/dashboard",
+                username: this.state.username
+            });
             $('#loginInfoAlert').hide();
         }
         else {
@@ -98,7 +101,7 @@ class LoginForm extends Component {
                         placeholder="Password"
                         onChange={this.handleChange}
                     />
-                    <br /><br />
+                    <br /><br /><br />
                     <button
                         className="login-input btn btn-info"
                         type="btn"

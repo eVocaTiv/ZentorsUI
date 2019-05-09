@@ -32,8 +32,8 @@ class LoginAndSignup extends Component {
     return (
       <div>
         <div className="btn-group">
-          <button type="button" id="login-button" onClick={this.toggleLoginAndSignup} className="btn btn-info ">Login</button>
-          <button type="button" onClick={this.toggleLoginAndSignup} className="btn btn-info">Register</button>
+          <button type="button" id="login-button" onClick={this.toggleLoginAndSignup} className="btn btn-info ">LOGIN</button>
+          <button type="button" onClick={this.toggleLoginAndSignup} className="btn btn-info">REGISTER</button>
         </div>
         {this.state.showLogin ?  <LoginForm /> : null }
         {this.state.showSignup ?  <RegisterForm /> : null }
