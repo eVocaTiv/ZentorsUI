@@ -16,11 +16,13 @@ This mini project was started as an experiment for a re-design of Zentors.org we
 ### Alerts
 Informative alerts at the bottom of the form for failed login & register. Fitting in with the monochromatic color scheme, these placate the user's state of mind.
 <p align="center"><img src="screenshots/Zentors Login Error.JPG" /></p>
+
 ### An elegant register portal
 A simplistic register / login portal switchable at the click of a button. Descriptive with placeholders & buttons with ample areas and spacing for a fluent user experience. 
 <p align="center"><img src="screenshots/Zentors Login Screenshot.JPG" /></p>
 A customized switch for mentor / mentee login which lets the user know clearly with a cyan background.
 <p align="center"><img src="screenshots/Zentors Mentor.JPG" /></p>
+
 ### Dashboard skeleton
 A similar fashioned dashboard which greets the username logged in ( 'user' in this case ). Using the native 'password' type in the form allows for google's password caching. 
 <p align="center"><img src="screenshots/Zentors Password Update Screenshot.JPG" /></p>
