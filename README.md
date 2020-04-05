@@ -1,7 +1,23 @@
-# ZentorsUI
-The front-end application for Zentors.
+## ZentorsUI
+The front-end application for Zentors. Zentors is a Startup based out of Stanford University, California. I voluteered to work on this project as the UI designer & developer in addition to supervising the tech architecture of the full new website. This is a documentized code of the front-end login based feature of the mockups I proposed based on my interactions with the founder - Rishabh Kothari.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About Zentors
+Zentors is a mentoring program helping students connect with seniors for their higher education guidance around the world.
+
+## Need for ZentorsUI
+The current application was built up on wordpress as an experiment with its concomintant limitations of lack of control of data. For an application where the admin has complete control of user traffic on his / her website and other analytics considerations it is important to have a web app made from scratch. 
+
+Another requirement was of new features including a login based system and other prototypes proposed like a video application / online doodle based system for discussion between the mentor and mentee. Moreover, an audio/video call based on pre-booked sessions would help monetize the business more easily than resorting to 3rd party applications.
+
+## Introduction
+This mini project was started as an experiment for a re-design of Zentors.org website and software architecture by me. The finalized structure includes - React based SPA in the front-end having new user login functionality which includes server side validation using JSON Web Tokens ( https://jwt.io/ ). The backend will make use of Mongo-DB written up in Python. All the servers will be hosted via Heroku using a custom domain: Zentors.com or likewise.
+
+## Some of the features
+###
+<p align="center"><img src="screenshots/Zentors Login Error.JPG" /></p>
+<p align="center"><img src="screenshots/Zentors Login Screenshot.JPG" /></p>
+<p align="center"><img src="screenshots/Zentors Zentors Mentor.JPG" /></p>
+<p align="center"><img src="screenshots/Zentors Password Update Screenshot.JPG" /></p>
 
 ## Available Scripts
 
