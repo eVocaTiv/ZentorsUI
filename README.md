@@ -7,7 +7,7 @@ Zentors is a mentoring program helping students connect with seniors for their h
 ## Need for ZentorsUI
 The current application was built up on wordpress as an experiment with its concomintant limitations of lack of control of data. For an application where the admin has complete control of user traffic on his / her website and other analytics considerations it is important to have a web app made from scratch. 
 
-Another requirement was of new features including a login based system and other prototypes proposed like a video application / online doodle based system for discussion between the mentor and mentee. Moreover, an audio/video call based on pre-booked sessions would help monetize the business more easily than resorting to 3rd party applications.
+Another requirement was of new features including a login based system and other prototypes proposed like a video application / online doodle based system for discussions between the mentor and mentee. Moreover, an audio/video call based on pre-booked sessions would help monetize the business more easily than resorting to 3rd party applications.
 
 ## Introduction
 This mini project was started as an experiment for a re-design of Zentors.org website and software architecture by me. The finalized structure includes - React based SPA in the front-end having new user login functionality which includes server side validation using JSON Web Tokens ( https://jwt.io/ ). The backend will make use of Mongo-DB written up in Python. All the servers will be hosted via Heroku using a custom domain: Zentors.com or likewise.
@@ -16,7 +16,7 @@ This mini project was started as an experiment for a re-design of Zentors.org we
 ###
 <p align="center"><img src="screenshots/Zentors Login Error.JPG" /></p>
 <p align="center"><img src="screenshots/Zentors Login Screenshot.JPG" /></p>
-<p align="center"><img src="screenshots/Zentors Zentors Mentor.JPG" /></p>
+<p align="center"><img src="screenshots/Zentors Mentor.JPG" /></p>
 <p align="center"><img src="screenshots/Zentors Password Update Screenshot.JPG" /></p>
 
 ## Available Scripts
