@@ -3,14 +3,15 @@
   text-align: center;
   margin: auto;
 }
+
 * {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .main-container {
   position: absolute;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   background-image: url('./metadata/bg-zentors-blue3.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -23,7 +24,8 @@
   font-weight: bold;
   font-family: Georgia, 'Times New Roman', Times, serif;
   /* background-color: #287799; */
-  background-color: #17a2b8; /* same as 'info' color */
+  background-color: #17a2b8;
+  /* same as 'info' color */
 }
 
 .login-form, .register-form {
@@ -66,7 +68,8 @@
   margin: 5rem 0.5rem 0.25rem 0;
   height: 5rem;
 }
-.btn-group .btn:hover{
+
+.btn-group .btn:hover {
   background: #17a2b8;
 }
 
@@ -100,3 +103,8 @@
   }
 }
 
+.logout-container {
+  position: absolute;
+  top: 80%;
+  width: 100%;
+}

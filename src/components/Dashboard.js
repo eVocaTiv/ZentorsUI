@@ -32,14 +32,18 @@ class Dashboard extends Component {
     const divStyle = {
       fontWeight: 'bold',
       textAlign: 'center',
-      color: '#287799'
+      color: '#287799',
     };
     return (
-      <div style = {divStyle}>
+      <div style={divStyle}>
         <h1>Welcome {this.props.location.username} to the Dashboard!</h1>
-        <button onClick={this.logout}>Logout</button>
+        <div class="logout-container">
+          <button class="login-input btn btn-info" onClick={this.logout}>
+            Logout
+          </button>
+        </div>
       </div>
-    )
+    );
   }
 }
 
