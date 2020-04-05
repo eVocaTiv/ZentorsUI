@@ -10,13 +10,19 @@ The current application was built up on wordpress as an experiment with its conc
 Another requirement was of new features including a login based system and other prototypes proposed like a video application / online doodle based system for discussions between the mentor and mentee. Moreover, an audio/video call based on pre-booked sessions would help monetize the business more easily than resorting to 3rd party applications.
 
 ## Introduction
-This mini project was started as an experiment for a re-design of Zentors.org website and software architecture by me. The finalized structure includes - React based SPA in the front-end having new user login functionality which includes server side validation using JSON Web Tokens ( https://jwt.io/ ). The backend will make use of Mongo-DB written up in Python. All the servers will be hosted via Heroku using a custom domain: Zentors.com or likewise.
+This mini project was started as an experiment for a re-design of Zentors.org website and software architecture by me. The finalized structure includes - React based SPA in the front-end having new user login functionality which includes server side security using JSON Web Tokens ( https://jwt.io/ ). The backend will make use of Mongo-DB written up in Python. All the servers will be hosted via Heroku using a custom domain: Zentors.com or likewise.
 
-## Some of the features
-###
+## Some of the features of the login.
+### Alerts
+Informative alerts at the bottom of the form for failed login & register. Fitting in with the monochromatic color scheme, these placate the user's state of mind.
 <p align="center"><img src="screenshots/Zentors Login Error.JPG" /></p>
+### An elegant register portal
+A simplistic register / login portal switchable at the click of a button. Descriptive with placeholders & buttons with ample areas and spacing for a fluent user experience. 
 <p align="center"><img src="screenshots/Zentors Login Screenshot.JPG" /></p>
+A customized switch for mentor / mentee login which lets the user know clearly with a cyan background.
 <p align="center"><img src="screenshots/Zentors Mentor.JPG" /></p>
+### Dashboard skeleton
+A similar fashioned dashboard which greets the username logged in ( 'user' in this case ). Using the native 'password' type in the form allows for google's password caching. 
 <p align="center"><img src="screenshots/Zentors Password Update Screenshot.JPG" /></p>
 
 ## Available Scripts
