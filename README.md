@@ -12,6 +12,22 @@ Another requirement was of new features including a login based system and other
 ## Introduction
 This mini project was started as an experiment for a re-design of Zentors.org website and software architecture by me. The finalized structure includes - A shade of blue as the primary brand color, React based SPA in the front-end having new user login functionality which includes server side security using JSON Web Tokens ( https://jwt.io/ ). Usable components architecture from React will allow us to make development streamlined especially when the website has alot of parts like cards which can be made once and deployed multiple times! The backend will make use of Mongo-DB written up in Python. All the servers will be hosted via Heroku using a custom domain: Zentors.com or likewise.
 
+## Wireframe sketches
+
+### Login / Register Page
+<p align="center"><img src="screenshots/login.jpg" /></p>
+
+### Dashboard ( Mentor )
+<p align="center"><img src="screenshots/dashboard-mentor.jpg" /></p>
+
+
+### Dashboard ( Mentee )
+<p align="center"><img src="screenshots/dashboard-mentee.jpg" /></p>
+
+
+### Profile Page
+<p align="center"><img src="screenshots/profile.jpg" /></p>
+
 ## Some of the features of the login.
 ### Alerts
 Informative alerts at the bottom of the form for failed login & register. Fitting in with the monochromatic color scheme, these placate the user's state of mind.
