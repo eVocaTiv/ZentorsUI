@@ -1,8 +1,8 @@
-## ZentorsUI
-The front-end application for Zentors. Zentors is a Startup based out of Stanford University, California. I voluteered to work on this project as the UX designer & Web Developer in addition to supervising the tech architecture of the full new website. This is a documentized code of the front-end login based feature of the mockups I proposed based on my interactions with the founder - Rishabh Kothari.
-
 ## About Zentors
 Zentors is a mentoring program helping students connect with seniors for their higher education guidance around the world.
+
+## ZentorsUI
+The front-end application for Zentors. Zentors is a Startup based out of Stanford University, California. I voluteered to work on this project as the UX designer & Web Developer in addition to supervising the tech architecture of the full new website. This is a documentized code of the front-end login based feature of the mockups I proposed based on my interactions with the founder - Rishabh Kothari.
 
 ## Need for ZentorsUI
 The current application was built up on wordpress as an experiment with its concomintant limitations of lack of control of data. For an application where the admin has complete control of user traffic on his / her website and other analytics considerations it is important to have a web app made from scratch. 
