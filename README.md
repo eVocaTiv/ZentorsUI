@@ -20,7 +20,6 @@ This project was started as an experiment for a re-design of Zentors.org website
 ### Dashboard ( Mentor )
 <p align="center"><img src="screenshots/dashboard-mentor.jpg" /></p>
 
-
 ### Dashboard ( Mentee )
 <p align="center"><img src="screenshots/dashboard-mentee.jpg" /></p>
 
@@ -30,10 +29,10 @@ This project was started as an experiment for a re-design of Zentors.org website
 
 ## Some of the features of the login.
 ### Alerts
-Informative alerts at the bottom of the form for failed login & register. Fitting in with the monochromatic color scheme, these placate the user's state of mind.
+Informative alerts at the bottom of the form for failed login & register attempts.
 <p align="center"><img src="screenshots/Zentors Login Error.JPG" /></p>
 
-### An elegant register portal
+### An simplistic register portal
 A simplistic register / login portal switchable at the click of a button. Descriptive with placeholders & buttons with ample areas and spacing for a fluent user experience. 
 <p align="center"><img src="screenshots/Zentors Login Screenshot.JPG" /></p>
 A customized switch for mentor / mentee login which lets the user know clearly with a cyan background.
