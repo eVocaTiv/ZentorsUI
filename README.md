@@ -2,12 +2,12 @@
 Zentors is a mentoring program helping students connect with seniors for their higher education guidance around the world.
 
 ## ZentorsUI
-The front-end application for Zentors. Zentors is a Startup based out of Stanford University, California. I voluteered to work on this project as the UX designer & Web Developer in addition to supervising the tech architecture of the full new website. This is a documentized code of the front-end login based feature of the mockups I proposed based on my interactions with the founder - Rishabh Kothari.
+The front-end application for Zentors. Zentors is a Startup based out of Stanford University, California. I voluteered to work on this project as the UX designer & Software Developer in addition to supervising the tech architecture of the full new website. This is a documentized code of the front-end login based feature of the mockups I proposed based on my interactions with the founder - Rishabh Kothari.
 
-## Need for ZentorsUI
-The current application was built up on wordpress as an experiment with its concomintant limitations of lack of control of data. For an application where the admin has complete control of user traffic on his / her website and other analytics considerations it is important to have a web app made from scratch. 
+## Need & User research
+The previous prototype was built up on wordpress as an experiment with its concomintant limitations of lack of control of data. For an application where the admin has complete control of user traffic on his / her website and other analytics considerations it is important to have a web app made from scratch. 
 
-Another requirement was of new features including a login based system and other prototypes proposed like a video application / online doodle based system for discussions between the mentor and mentee. Moreover, an audio/video call based on pre-booked sessions would help monetize the business more easily than resorting to 3rd party applications.
+Another requirement asked by the users was of new features including a login based system and other prototypes proposed like a video application / online doodle based system for discussions between the mentor and mentee. Moreover, an audio/video call based on pre-booked sessions would help monetize the business more easily than resorting to 3rd party applications. This would be a vital part because having a profile based system would allow the students using the application to stay more 'indulged' in the process of being a mentee. Moreover, the mentors would be able to manage their appointments with far more ease than through manual work.
 
 ## Introduction
 This project was started by me as an experiment for a re-design of Zentors.org website and software architecture. The finalized structure includes - A shade of blue as the primary brand color, React based SPA in the front-end having new user login functionality which includes server side security using JSON Web Tokens ( https://jwt.io/ ). Usable components architecture from React will allow us to make development streamlined especially when the website has alot of parts like cards which can be made once and deployed multiple times! The backend will make use of Mongo-DB written up in Python. All the servers will be hosted via Heroku using a custom domain: Zentors.com or likewise.
