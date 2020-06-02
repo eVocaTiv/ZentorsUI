@@ -43,7 +43,7 @@ A similar fashioned dashboard which greets the username logged in ( 'user' in th
 <p align="center"><img src="screenshots/Zentors Password Update Screenshot.JPG" /></p>
 
 ### Architecture plan
-<p align="center"><img src="screenshots/zentors-arch.JPG" /></p>
+<p align="center"><img src="screenshots/zentors-arch.jpg" /></p>
 
 
 ## Available Scripts
