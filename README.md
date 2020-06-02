@@ -42,6 +42,10 @@ A customized switch for mentor / mentee login which lets the user know clearly w
 A similar fashioned dashboard which greets the username logged in ( 'user' in this case ). Using the native 'password' type in the form allows for google's password caching. 
 <p align="center"><img src="screenshots/Zentors Password Update Screenshot.JPG" /></p>
 
+### Architecture plan
+<p align="center"><img src="screenshots/zentors-arch.JPG" /></p>
+
+
 ## Available Scripts
 
 In the project directory, you can run:
