@@ -2,7 +2,7 @@
 Zentors is a mentoring program helping students connect with seniors  all around the world for their higher education guidance.
 
 ## ZentorsUI
-The front-end application for Zentors. Zentors is a Startup based out of Stanford University, California. I voluteered to work on this project as the UX designer & Software Developer in addition to supervising the tech architecture of the full new website. This is a documentized code of the front-end login based feature of the mockups I proposed based on my interactions with the founder - Rishabh Kothari.
+The front-end starter code for Zentors. Zentors is a Startup based out of Stanford University, California. I voluteered to work on this project as the UX designer & Software Developer in addition to supervising the tech architecture of the full new website. This is a documentized code of the front-end login based feature of the mockups I proposed based on my interactions with the founder - Rishabh Kothari.
 
 ## Need & User research
 Zentors aims to provide a platform which makes interaction of students and mentors possible. Students who are in the final years of their college or are aspiring to go back to school again for a Master's or a PhD. degree often get lost. There are tonnes of information available on the internet and the presence of scam agencies makes it difficult for such students to find guidance. Therefore, this platform will solve the problem of connecting students with mentors who are currently studying in the aspirant's university or have graduated from there. Not only would it make easier to find guidance, but also assure authenticity. 
@@ -55,7 +55,6 @@ A similar fashioned dashboard which greets the username logged in ( 'user' in th
 
 ### Architecture plan
 <p align="center"><img src="screenshots/zentors-arch.jpg" /></p>
-
 
 ## Available Scripts
 
