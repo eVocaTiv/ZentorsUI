@@ -1,13 +1,13 @@
 ## About Zentors
-Zentors is a mentoring platform helping students connect with seniors  all around the world for their higher education guidance.
+Zentors is a mentoring platform startup helping students connect with seniors all around the world for their higher education guidance. It was started by graduates of Stanford University, California
 
 ## ZentorsUI
-The front-end starter code for Zentors. Zentors is a Startup based out of Stanford University, California. I voluteered to work on this project as the UX designer & Software Developer in addition to supervising the tech architecture of the full new website.
+The front-end starter code for Zentors. I voluteered to work on this project as the UX designer & Software Developer in addition to supervising the tech architecture of the  new website.
 
 This is a documentized code of the login functionality of the mockups I proposed, based on my interactions with one of the co-founders - Rishabh Kothari.
 
 ## Need & User research
-Zentors aims to provide a platform which makes interaction of students and mentors possible. Students who are in the final years of their college or are aspiring to go back to school again for a Master's or a PhD. degree often get lost. There are tonnes of information available on the internet and the presence of scam agencies makes it difficult for such students to find guidance. Therefore, this platform will solve the problem of connecting students with mentors who are currently studying in the aspirant's university or have graduated from there. Not only would it make easier to find guidance, but also assure authenticity. 
+Zentors aims to provide a platform which makes interaction of students and mentors possible. Students who are in the final years of their college or are aspiring to go back to school again for a Master's or a PhD. degree often get lost. There are tons of information available on the internet and the presence of scam agencies makes it difficult for such students to find guidance. Being in the same boat myself, I feel close to this product as it will help many students achieve their goals of entering their dream education programs! Therefore, this platform will solve the problem of connecting students with mentors who are currently studying in the aspirant's university or have graduated from there. Not only would it make easier to find guidance, but also assure authenticity from the mentors. 
 
 From choosing a career path to narrowing down to one's dream universities is a taxing task, which involves months of preparation. For this reason, students prefer to be engaged in the process for a long term. In the new model we ideate a milestone based system, which would enable the mentor to design a path for the student till the moment he or she gets admission. The initial calling and guidance is free, and further milestones may be charged depending on how much the student is able to benefit of it. 
 
@@ -48,7 +48,7 @@ Informative alerts at the bottom of the form for failed login & register attempt
 ### An simplistic register portal
 A simplistic register / login portal switchable at the click of a button. Descriptive with placeholders & buttons with ample areas and spacing for a fluent user experience. 
 <p align="center"><img src="screenshots/Zentors Login Screenshot.JPG" /></p>
-A customized switch for mentor / mentee login which lets the user know clearly with a monochromatic background.
+A customized switch for mentor / mentee login which makes for a easy sign up.
 <p align="center"><img src="screenshots/Zentors Mentor.JPG" /></p>
 
 ### Dashboard skeleton
