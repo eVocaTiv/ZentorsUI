@@ -47,6 +47,7 @@ Informative alerts at the bottom of the form for failed login & register attempt
 
 ### An simplistic register portal
 A simplistic register / login portal switchable at the click of a button. Descriptive with placeholders & buttons with ample areas and spacing for a fluent user experience. 
+The elements are intentionally large and logically close to adhere to the UX laws of proximity, similarity and Fitt's law.
 <p align="center"><img src="screenshots/Zentors Login Screenshot.JPG" /></p>
 A customized switch for mentor / mentee login which makes for a easy sign up.
 <p align="center"><img src="screenshots/Zentors Mentor.JPG" /></p>
