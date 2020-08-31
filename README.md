@@ -1,16 +1,27 @@
 ## About Zentors
-Zentors is a mentoring program helping students connect with seniors for their higher education guidance around the world.
+Zentors is a mentoring program helping students connect with seniors  all around the world for their higher education guidance.
 
 ## ZentorsUI
 The front-end application for Zentors. Zentors is a Startup based out of Stanford University, California. I voluteered to work on this project as the UX designer & Software Developer in addition to supervising the tech architecture of the full new website. This is a documentized code of the front-end login based feature of the mockups I proposed based on my interactions with the founder - Rishabh Kothari.
 
 ## Need & User research
-The previous prototype was built up on wordpress as an experiment with its concomintant limitations of lack of control of data. For an application where the admin has complete control of user traffic on his / her website and other analytics considerations it is important to have a web app made from scratch. 
+Zentors aims to provide a platform which makes interaction of students and mentors possible. Students who are in the final years of their college or are aspiring to go back to school again for a Master's or a PhD. degree often get lost. There are tonnes of information available on the internet and the presence of scam agencies makes it difficult for such students to find guidance. Therefore, this platform will solve the problem of connecting students with mentors who are currently studying in the aspirant's university or have graduated from there. Not only would it make easier to find guidance, but also assure authenticity. 
 
-Another requirement asked by the users was of new features including a login based system and other prototypes proposed like a video application / online doodle based system for discussions between the mentor and mentee. Moreover, an audio/video call based on pre-booked sessions would help monetize the business more easily than resorting to 3rd party applications. This would be a vital part because having a profile based system would allow the students using the application to stay more 'indulged' in the process of being a mentee. Moreover, the mentors would be able to manage their appointments with far more ease than through manual work.
+From choosing a career path to narrowing down to one's dream universities is a taxing task, which involves months of preparation. For this reason, students prefer to be engaged in the process for a long term. In the new model we ideate a milestone based system, which would enable the mentor to design a path for the student till the moment he or she gets admission. The initial calling and guidance is free, and further milestones may be charged depending on how much the student is able to benefit of it. 
+
+The previous prototype for the website was built up on wordpress as an experiment with its concomintant limitations of lack of control of data. For an application where the admin has complete control of user traffic on his / her website and other analytics considerations, it is important to have a web app which is made inhouse. 
+
+Another requirement asked by the users was of new features including a login based system and other prototypes proposed like a video application / online doodle based system for discussions between the mentor and mentee. An important feature is that the mentors and mentees would be able to track their progress and get in touch again with a click. Moreover, an audio/video call based on pre-booked sessions would help monetize the business more easily than resorting to 3rd party applications. This would be a vital part because having a profile based system would allow the students using the application to stay more 'indulged' in the process of being a mentee. Moreover, the mentors would be able to manage their appointments with far more ease than through manual work.
+
+## Key Features Proposed
+- Profiles for mentors and mentees
+- Dashboard for tracking progress
+- News & Updates 
+- Inbuilt calling feature
+- Custom guidance plans for students
 
 ## Introduction
-This project was started by me as an experiment for a re-design of Zentors.org website and software architecture. The finalized structure includes - A shade of blue as the primary brand color (mainly because it is associated with an orderly and peaceful impact), React based SPA in the front-end having new user login functionality which includes server side security using JSON Web Tokens ( https://jwt.io/ ). Usable components architecture from React will allow us to make development streamlined especially when the website has alot of parts like cards which can be made once and deployed multiple times! The backend will make use of Mongo-DB written up in Python. All the servers will be hosted via Heroku using a custom domain: Zentors.com or likewise.
+This project was started as an experiment for redesigning the Zentors.org website and researching on the software architecture. The finalized structure includes - A shade of blue as the primary brand color (mainly because it is associated with an orderly and peaceful impact), React based SPA in the front-end having new user login functionality which includes server side security using JSON Web Tokens ( https://jwt.io/ ). Usable components architecture from React will allow us to make development streamlined especially when the website has alot of parts like cards which can be made once and deployed multiple times! The backend will make use of Mongo-DB database written up in Python. All the servers will be hosted via Heroku using a custom domain: Zentors.com or likewise.
 
 ## Wireframe sketches
 
