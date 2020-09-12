@@ -1,5 +1,5 @@
 ## About Zentors
-Zentors is a mentoring platform startup helping students connect with seniors all around the world for their higher education guidance. It was started by students of Stanford University, California
+Zentors is a mentoring platform startup helping students connect with seniors all around the world for their higher education guidance. It was started by students of Stanford University, California.
 
 ## ZentorsUI
 The front-end starter code for Zentors. I voluteered to work on this project as the UX designer & Software Developer in addition to supervising the tech architecture of the  new website.
@@ -42,8 +42,8 @@ This project was started as an experiment for redesigning the Zentors.org websit
 
 ## Some of the features of the login.
 ### Alerts
-Informative alerts at the bottom of the form for failed login & register attempts. In the actual UI, colors will wary depending upon the severity of the alert.
-A very common fallback pattern is to include 'Forgot Password?' in the alert. 
+Informative alerts at the bottom of the form for failed login & register attempts. In the actual UI, colors will vary depending upon the severity of the alert.
+A very common fallback pattern is to include 'Forgot Password?' call to action in the alert. 
 <p align="center"><img src="screenshots/Zentors Login Error.JPG" /></p>
 
 ### An simplistic register portal
