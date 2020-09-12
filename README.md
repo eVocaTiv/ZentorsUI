@@ -1,5 +1,5 @@
 ## About Zentors
-Zentors is a mentoring platform startup helping students connect with seniors all around the world for their higher education guidance. It was started by graduates of Stanford University, California
+Zentors is a mentoring platform startup helping students connect with seniors all around the world for their higher education guidance. It was started by students of Stanford University, California
 
 ## ZentorsUI
 The front-end starter code for Zentors. I voluteered to work on this project as the UX designer & Software Developer in addition to supervising the tech architecture of the  new website.
